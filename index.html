@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <a id="top"></a>
+  <!-- Navbar -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">
+        <img src="img/Logo Juragan.png" alt="Logo PM. juragan" style="height:100px;" />
+      </div>
+      <ul class="nav-links">
+        <li><a href="#top">Home</a></li>
+        <li><a href="#profile">Our Profile</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Message Us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- bagian welcome / profile -->
+  <section class="hero" id="profile">
+    <h1 id="welcome-text">Hi [Name], Selamat datang di Web PM. Juragan</h1>
+    <p>Pondok Makan Juragan adalah tempat makan yang mengusung cita rasa khas nusantara dengan suasana nyaman dan harga bersahabat. </p>
+    <div class="banner">
+      <img src="img/Screenshot 2025-07-03 211435.png" alt="banner"/> 
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section id="portfolio">
+    <h2 style="text-align:center;">Portfolio</h2>
+    <div class="portfolio-desc">
+      <p>Kami menyajikan berbagai hidangan pilihan mulai dari olahan ayam, ikan, hingga menu sayur segar semua dimasak dengan bumbu rempah asli dan resep turun-temurun. Dengan konsep pondok tradisional yang asri dan pelayanan ramah, Pondok Makan Juragan cocok untuk makan bersama keluarga, rekan kerja, maupun acara rombongan.</p>
+    </div>
+    <div class="gallery">
+      <img src="img/Nasi Ayam goreng.jpg" alt="Ayam Goreng">
+      <img src="img/Paket Nila bakar.jpg" alt="Nila Bakar">
+      <img src="img/pindang ikan.jpg" alt="Pindang Ikan">
+    </div>
+  </section>
+
+  <!-- Headquarters -->
+  <section class="Cabang">
+    <h2>Cabang Kami</h2>
+     <div class="city">Palembang</div>
+  </section>
+
+  <!-- form kontak -->
+  <section class="contact" id="contact">
+    <h2 style="text-align: center;">Message Us</h2>
+    <div class="contact-box">
+      <form id="contact-form">
+        <label>Nama: <input type="text" id="name" required /></label>
+        <label>Tanggal Lahir: <input type="date" id="birthdate" required /></label>
+        <label>Jenis Kelamin:</label>
+        <label><input type="radio" name="gender" value="Laki-laki" required /> Laki-laki</label>
+        <label><input type="radio" name="gender" value="Perempuan" /> Perempuan</label>
+        <label>Pesan: <textarea id="message" required></textarea></label>
+        <button type="submit">Submit</button>
+      </form>
+      <div id="form-result"></div>
+    </div>
+  </section>
+
+  <footer>
+    <p style="text-align: center;">Created by M. Dandi Akhda</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

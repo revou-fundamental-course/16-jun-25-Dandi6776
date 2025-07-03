@@ -1,0 +1,167 @@
+/* Reset dasar */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  line-height: 1.6;
+  padding: 20px;
+  background-color: #ddb9e1; 
+}
+
+/* Navbar */
+.navbar {
+  list-style: none;
+  padding: 0;
+  
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 10px 20px;
+}
+
+.logo {
+  flex: 1;
+}
+
+.nav-links {
+  flex: 2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  list-style: none; 
+  padding: 0;        
+  margin: 0;         
+}
+
+.nav-links li a {
+  text-decoration: none; 
+  color: #333;           
+  font-weight: 500;
+  padding: 6px 12px;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.nav-links li a:hover {
+  background: #e0e0e0;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  margin: 40px 0 32px 0; 
+}
+
+.banner {
+  background-color: #ddd;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+.banner img {
+  width: 100%;
+  max-width: 1366px;
+  height: auto;
+  aspect-ratio: 1366/578;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgb(255, 255, 255);
+}
+
+/* Headquarters */
+.Cabang {
+  margin: 50px 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.city {
+  width: 100px;
+  height: 100px;
+  border: 2px solid black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* kontak */
+.contact {
+  margin-top: 40px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  max-width: 400px;
+}
+
+button {
+  padding: 8px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+#form-result {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.contact-box {
+  border: 2px solid #aaa;
+  border-radius: 10px;
+  padding: 24px;
+  background: #fafafa;
+  max-width: 450px;
+  margin: 0 auto;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+/* Gallery styling */
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin: 30px 0;
+}
+
+.gallery img {
+  width: 180px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  transition: transform 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+
+.gallery img:hover {
+  transform: scale(1.08) rotate(-2deg);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.18);
+}
+
+#portfolio {
+  margin-top: 32px;
+}
+
+.portfolio-desc {
+  max-width: 600px;
+  margin: 0 auto 24px auto;
+  text-align: center;
+}
